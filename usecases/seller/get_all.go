@@ -16,3 +16,4 @@ func GetAll(writer http.ResponseWriter, request *http.Request) {
 	json, _ := json2.Marshal(sellers)
 	commons.SendReponse(writer, http.StatusOK, json)
 }
+
